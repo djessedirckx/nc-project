@@ -29,7 +29,8 @@ For running the Atari environment, a ROM file containing the game dynamics is re
 
 The files in this repository are distributed over multiple folders
 - Images:
-  - [Results of the Genetic Algorithm implementation](images/GA)
+  - [Results of the SQM algorithm](images/SQM)
+  - [Results of the Genetic Algorithm](images/GA)
   - [Results of the CMA-ES algorithm](images/CMA-ES)
 - RNN weights
   - [Weights for RNN trained on an action space of 4](rnn%20weights/rnn_predictor_4_actions.hdf5)
@@ -42,4 +43,4 @@ The files in this repository are distributed over multiple folders
   - Implementation and testing of the genetic algorithm
   - CMA-ES
     - [Gamestate-only experiments](source%20code/CMAES.ipynb)
-    - [RNN experiment](source%20code/CMAES_RNN.ipynb)
+    - [Gamestate + RNN experiment](source%20code/CMAES_RNN.ipynb)
