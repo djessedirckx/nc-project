@@ -19,7 +19,7 @@ numpy==1.19.2
 opencv-python==4.5.1.48
 pandas==1.1.3
 scikit-image=0.17.2
-scikit-learn
+scikit-learn==0.23.2
 tensorflow==2.4.1
 ```
 
@@ -36,11 +36,10 @@ The files in this repository are distributed over multiple folders
   - [Weights for RNN trained on an action space of 9](rnn%20weights/rnn_predictor_9_actions.hdf5)
 - Source code:
   - [Data collection for VAE](source%20code/VAE_data_collection.ipynb)
-  - VAE implementation
+  - [VAE implementation](source%20code/VAE.ipynb)
   - [RNN implementation and testing](source%20code/RNN_implementation.ipynb)
-  - Random agent used to establish baseline results
   - Implementation and testing of the SQM algorithm
   - Implementation and testing of the genetic algorithm
   - CMA-ES
-    - [State-only experiments](source%20code/CMAES_9_actions.ipynb)
-    - [RNN experiment](source%20code/CMAES_9_actions_rnn.ipynb)
+    - [Gamestate-only experiments](source%20code/CMAES.ipynb)
+    - [RNN experiment](source%20code/CMAES_RNN.ipynb)
