@@ -37,7 +37,6 @@ The steps below can be followed for replicating the VAE and RNN experiments:
 In order to repeat the various experiments to find an optimal strategy for the agent, the respective notebooks listed under `Files` can be used. It is important to execute these notebooks from top to bottom in order to get proper results. All experiments can be conducted independent from each other. Each notebooks contains detailed comments about its components.
 
 ## Files
-
 The files in this repository are distributed over multiple folders
 - Images:
   - [Results of the SQM algorithm](images/SQM)
@@ -57,7 +56,6 @@ The files in this repository are distributed over multiple folders
     - [Gamestate + RNN experiment](source%20code/CMAES_RNN.ipynb)
 
 ## Videos
-
 - CMA-ES
   - [Best configuration for action space 4 (game state as input only)](https://www.youtube.com/watch?v=HclX0dUzcFk)
   - [Best configuration for action space 9 (game state as input only)](https://www.youtube.com/watch?v=pDvYLiPEWgg)
