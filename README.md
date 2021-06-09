@@ -5,7 +5,7 @@
 - Djesse Dirckx (s1046968)
 
 ## About
-This repository contains all software that was used for the final project of the [Natural Computing course](https://www.ru.nl/courseguides/socsci/courses-osiris/ai/nwi-imc042-natural-computing/). In this project, it was tried to implement the World Model architecture for the game MsPacMan(). Specifically, it was evaluated which approach (genetic algorithm vs. evolutionary strategy) works best for optimising the parameters of the controller component. The following sections describe requirements and files that are needed to replicate results.
+This repository contains all software that was used for the final project of the [Natural Computing course](https://www.ru.nl/courseguides/socsci/courses-osiris/ai/nwi-imc042-natural-computing/). In this project, it was tried to implement the World Model architecture for the game [MsPacMan](https://gym.openai.com/envs/MsPacman-v0/). Specifically, it was evaluated which approach (genetic algorithm vs. evolutionary strategy) works best for optimising the parameters of the controller component. The following sections describe requirements and files that are needed to replicate results.
 
 ## Requirements
 All code in this repository is written in the Python programming language. To be able to succesfully run the experiments, the following dependencies are required:
