@@ -24,7 +24,17 @@ scikit-learn==0.23.2
 tensorflow==2.4.1
 ```
 
-For running the Atari environment, a ROM file containing the game dynamics is required. This can be found [here](http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html).
+For running the Atari environment, a ROM file containing the game dynamics is required. This can be found [here](http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html). 
+
+## Usage
+
+### VAE & RNN
+The steps below can be followed for replicating the VAE and RNN experiments:
+- The data required for training the VAE can be generated using the [Data collection for VAE](source%20code/VAE_data_collection.ipynb) notebook.
+- To use the RNN, either the listed pretrained models or the [notebook for training the RNN](source%20code/RNN_implementation.ipynb) can be used for retraining the model.
+
+### Controller experiments
+In order to repeat the various experiments to find an optimal strategy for the agent, the respective notebooks listed under `Files` can be used. It is important to execute these notebooks from top to bottom in order to get proper results. All experiments can be conducted independent from each other. Each notebooks contains detailed comments about its components.
 
 ## Files
 
@@ -34,8 +44,8 @@ The files in this repository are distributed over multiple folders
   - [Results of the Genetic Algorithm](images/GA)
   - [Results of the CMA-ES algorithm](images/CMA-ES)
 - RNN weights
-  - [Weights for RNN trained on an action space of 4](rnn%20weights/rnn_predictor_4_actions.hdf5)
-  - [Weights for RNN trained on an action space of 9](rnn%20weights/rnn_predictor_9_actions.hdf5)
+  - [Exported RNN trained on an action space of 4](rnn%20weights/rnn_predictor_4_actions.hdf5)
+  - [Exported trained on an action space of 9](rnn%20weights/rnn_predictor_9_actions.hdf5)
 - Source code:
   - [Data collection for VAE](source%20code/VAE_data_collection.ipynb)
   - [VAE implementation](source%20code/VAE.ipynb)
