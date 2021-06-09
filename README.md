@@ -44,7 +44,7 @@ The files in this repository are distributed over multiple folders
   - [Results of the CMA-ES algorithm](images/CMA-ES)
 - RNN weights
   - [Exported RNN trained on an action space of 4](rnn%20weights/rnn_predictor_4_actions.hdf5)
-  - [Exported trained on an action space of 9](rnn%20weights/rnn_predictor_9_actions.hdf5)
+  - [Exported RNN trained on an action space of 9](rnn%20weights/rnn_predictor_9_actions.hdf5)
 - Source code:
   - [Data collection for VAE](source%20code/VAE_data_collection.ipynb)
   - [VAE implementation](source%20code/VAE.ipynb)
