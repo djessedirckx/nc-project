@@ -14,7 +14,8 @@ atari-py==0.2.9
 cma==3.0.3
 gym==0.18.3
 h5py==2.10.0
-jupyterlab==2.2.6
+notebook==6.1.4
+matplotlib==3.3.2
 numpy==1.19.2
 opencv-python==4.5.1.48
 pandas==1.1.3
