@@ -44,3 +44,10 @@ The files in this repository are distributed over multiple folders
   - CMA-ES
     - [Gamestate-only experiments](source%20code/CMAES.ipynb)
     - [Gamestate + RNN experiment](source%20code/CMAES_RNN.ipynb)
+
+## Videos
+
+- CMA-ES
+  - [Best configuration for action space 4 (game state as input only)](https://www.youtube.com/watch?v=HclX0dUzcFk)
+  - [Best configuration for action space 9 (game state as input only)](https://www.youtube.com/watch?v=pDvYLiPEWgg)
+  - [Best configuration for action space 9 (game state and RNN hidden state as input)](https://www.youtube.com/watch?v=WevmIJDQK5s)
