@@ -49,15 +49,22 @@ The files in this repository are distributed over multiple folders
   - [Data collection for VAE](source%20code/VAE_data_collection.ipynb)
   - [VAE implementation](source%20code/VAE.ipynb)
   - [RNN implementation and testing](source%20code/RNN_implementation.ipynb)
-  - Implementation and testing of the SQM algorithm
-  - Implementation and testing of the genetic algorithm
+  - [Implementation and testing of the SQM algorithm](source%20code/Sequence-Mutation.ipynb)
+  - [Implementation and testing of the genetic algorithm](source%20code/Genetic-Algorithm.ipynb)
   - CMA-ES
     - [Gamestate-only experiments](source%20code/CMAES.ipynb)
     - [Gamestate + RNN experiment](source%20code/CMAES_RNN.ipynb)
 
 ## Videos
+- SQM
+  - [Best configuration for action space 4 (game state as input only)](https://youtu.be/dtlEn2XuvG0)
+  - [Best configuration for action space 9 (game state as input only)](https://youtu.be/jjMcVD5XEzw)
+- GA
+  - [Best configuration for action space 4 (game state as input only)](https://youtu.be/cLe5OKIZM9k)
+  - [Best configuration for action space 9 (game state as input only)](https://youtu.be/263EwEyo18g)
+  - [Best configuration for action space 9 (game state and RNN hidden state as input)](https://youtu.be/BTYWLt3w4Rk)
 - CMA-ES
   - [Best configuration for action space 4 (game state as input only)](https://www.youtube.com/watch?v=HclX0dUzcFk)
   - [Best configuration for action space 9 (game state as input only)](https://www.youtube.com/watch?v=pDvYLiPEWgg)
   - [Best configuration for action space 9 (game state and RNN hidden state as input)](https://www.youtube.com/watch?v=WevmIJDQK5s)
-- GA
+
