@@ -51,3 +51,4 @@ The files in this repository are distributed over multiple folders
   - [Best configuration for action space 4 (game state as input only)](https://www.youtube.com/watch?v=HclX0dUzcFk)
   - [Best configuration for action space 9 (game state as input only)](https://www.youtube.com/watch?v=pDvYLiPEWgg)
   - [Best configuration for action space 9 (game state and RNN hidden state as input)](https://www.youtube.com/watch?v=WevmIJDQK5s)
+- GA
