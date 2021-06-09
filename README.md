@@ -27,7 +27,6 @@ tensorflow==2.4.1
 For running the Atari environment, a ROM file containing the game dynamics is required. This can be found [here](http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html).
 
 ## Files
-
 The files in this repository are distributed over multiple folders
 - Images:
   - [Results of the SQM algorithm](images/SQM)
@@ -47,7 +46,6 @@ The files in this repository are distributed over multiple folders
     - [Gamestate + RNN experiment](source%20code/CMAES_RNN.ipynb)
 
 ## Videos
-
 - CMA-ES
   - [Best configuration for action space 4 (game state as input only)](https://www.youtube.com/watch?v=HclX0dUzcFk)
   - [Best configuration for action space 9 (game state as input only)](https://www.youtube.com/watch?v=pDvYLiPEWgg)
